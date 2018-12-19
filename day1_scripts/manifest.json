@@ -1,0 +1,30 @@
+{
+  "version": "0.1",
+  "name": "Day1Scripts",
+  "description": "Scripts for Day 1 of Lessons",
+  "platform": "nodejs8.10",
+  "created_at": "2018-10-24",
+  "updated_at": "2018-10-24",
+  "enabled": true,
+  "scripts":
+  [
+    {
+      "name":"Present",
+      "description":"tell me what I'm getting on day 1 as data",
+      "type":"PublicScript",
+      "actions": ["Get"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "pear_tree"
+    },
+    {
+      "name":"PresentProxy",
+      "description":"Tell me what I'm getting on day 1 as html",
+      "type":"PublicScript",
+      "actions": ["Get"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "pear_tree_proxy"
+    }
+  ]
+}
