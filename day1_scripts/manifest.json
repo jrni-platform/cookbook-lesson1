@@ -13,7 +13,7 @@
       "description":"tell me what I'm getting on day 1 as data",
       "type":"PublicScript",
       "actions": ["Get"],
-      "log_type": "Tail",
+      "log_type": "None",
       "enabled": true,
       "handler": "pear_tree"
     },
@@ -22,7 +22,7 @@
       "description":"Tell me what I'm getting on day 1 as html",
       "type":"PublicScript",
       "actions": ["Get"],
-      "log_type": "Tail",
+      "log_type": "None",
       "enabled": true,
       "handler": "pear_tree_proxy"
     }
